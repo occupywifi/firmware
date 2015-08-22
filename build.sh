@@ -6,4 +6,4 @@ cd OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64
 
 ln -s ../files .
 
-make image PROFILE=TLMR3040 FILES=files/
+make image PROFILE=TLMR3040 PACKAGES="nodogsplash" FILES=files/
