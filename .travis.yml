@@ -6,3 +6,8 @@ before_install:
 
 script:
   - ./build.sh
+
+addons:
+  artifacts: true
+  paths:
+    - ./OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/bin/ar71xx
