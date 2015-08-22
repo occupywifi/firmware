@@ -1,0 +1,8 @@
+language: c
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y subversion build-essential libncurses5-dev zlib1g-dev gawk git ccache gettext libssl-dev xsltproc
+
+script:
+  - ./build.sh
