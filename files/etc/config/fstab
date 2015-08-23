@@ -7,7 +7,7 @@ config 'global'
 	option check_fs        '0'
 
 config 'mount'
-	option target 	'/mnt'
+	option target 	'/etc/nodogsplash/htdocs'
 	option device	'/dev/sda1'
 	option fstype	'vfat'
 	option enabled	'1'
