@@ -1,0 +1,7 @@
+config 'mount'
+	option 'device' '/dev/sda1'
+	option 'options' 'rw.sync'
+	option 'enabled_fsck' '0'
+	option 'enabled' '1'
+	option 'target' '/mnt'
+
