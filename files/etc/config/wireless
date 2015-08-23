@@ -5,12 +5,12 @@ config wifi-device  radio0
         option path     'platform/ar933x_wmac'
         option htmode   HT20
         # REMOVE THIS LINE TO ENABLE WIFI:
-        option disabled 1
+        # option disabled 1
 
 config wifi-iface
         option device   radio0
         option network  lan
         option mode     ap
-        option ssid     OpenWrt
+        option ssid     OccupyWiFi
         option encryption none
 
