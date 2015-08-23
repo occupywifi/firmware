@@ -20,8 +20,8 @@ Artifacts can be found in `OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/
 
 If you can't build an image yourself, you can grab a stable image from the Travis CI build artifacts. Latest stable images:
 
- - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/21/21.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)
- - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/21/21.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
+ - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/22/22.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)
+ - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/22/22.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
 
 ## Flash
 
@@ -75,4 +75,6 @@ The default wireless SSID is `OccupyWiFi`, and is defined in `/etc/config/wirele
 The OccupyWifi image provides a simple default captive portal webpage. New content can be easily deployed by sticking a USB drive into the device. The are a few requirements for loading content from the USB:
 
  - USB drive must contain a single partition which is formatted as a FAT filesystem
- - Entry point is a single `splash.html` page on the USB drive root directory
+ - Entry point must be a single `splash.html` page on the USB drive root directory
+ - Any other pages or static assets must be hosted under the `static/` directory
+ - Other content that does not match these specifications **will not** be served by the captive portal
