@@ -20,8 +20,8 @@ Artifacts can be found in `OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/
 
 If you can't build an image yourself, you can grab a stable image from the Travis CI build artifacts. Latest stable images:
 
- - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/24/24.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)
- - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/24/24.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
+ - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/26/26.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)
+ - [openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/26/26.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
 
 ## Flash
 
