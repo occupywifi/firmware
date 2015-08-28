@@ -1,10 +1,12 @@
 # Occupy WiFi Firmware
 
-Occupy WiFi firmware for TP-Link TL-MR3040
-
-TP-MR3040 devices serve as captive portal hotspots serving content off of USB storage. OpenWRT images baked from this repository based on the [OpenWRT Image Generator](http://wiki.openwrt.org/doc/howto/obtain.firmware.generate).
-
 [![Travis CI Build Status](https://travis-ci.org/occupywifi/firmware.svg)](https://travis-ci.org/occupywifi/firmware)
+
+[Occupy WiFi](http://occupywifi.org/en) is a concept project built around a portable router that functions as a web server that distributes propaganda, enabling activists, protestors and other freedom of speech advocates to virtually demonstrate in public without being identified as such.
+
+Firmware is provided for TP-Link TL-MR3040 devices which are used for their low price, excellent portability (batteries included!) and flawless support for OpenWrt-based firmware. The devices serve as LAN-only captive portal hotspots that capture and route all traffic to a local web server that serves propaganda of choice. Custom content can be loaded onto USB drives and seamlessly plugged in.
+
+Firmware images baked from this repository are based on the [OpenWrt Image Generator](http://wiki.openwrt.org/doc/howto/obtain.firmware.generate) framework.
 
 ## Build
 
