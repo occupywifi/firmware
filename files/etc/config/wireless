@@ -13,4 +13,4 @@ config wifi-iface
         option mode     ap
         option ssid     OccupyWiFi
         option encryption none
-
+        option macaddr  00:0C:C5:D4:31:F1
