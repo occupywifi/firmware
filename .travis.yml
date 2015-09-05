@@ -22,4 +22,4 @@ script:
 addons:
   artifacts:
     paths:
-    - ./OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/bin/ar71xx
+    - '$(ls ./OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/bin/ar71xx/*-{factory,sysupgrade}.bin | tr "\n" ":")'
