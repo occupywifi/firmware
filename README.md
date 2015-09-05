@@ -6,6 +6,8 @@
 
 Firmware is provided for TP-Link TL-MR3040 devices which are used for their low price, excellent portability (batteries included!) and flawless support for OpenWrt-based firmware. The devices serve as LAN-only captive portal hotspots that capture and route all traffic to a local web server that serves propaganda of choice. Custom content can be loaded onto USB drives and seamlessly plugged in.
 
+TL-MR3020 and TL-WR703 are both supported as secondary devices for stationary deployments, or with external portable 5V power.
+
 Firmware images baked from this repository are based on the [OpenWrt Image Generator](http://wiki.openwrt.org/doc/howto/obtain.firmware.generate) framework.
 
 ## Build
@@ -22,8 +24,12 @@ Artifacts can be found in `OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/
 
 If you can't build an image yourself, you can grab a stable image from the Travis CI build artifacts. Latest stable images:
 
- - [occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/27/27.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)
- - [occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/27/27.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
+    | Device | Factory | Sysupgrade
+--- | ------ | ------- | ----------
+<img src="http://i.imgur.com/JxfpPkZ.png" height="48"> | TL-MR3040 | [tl-mr3040-v2-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin) | [tl-mr3040-v2-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
+<img src="http://i.imgur.com/jVqic8Z.png" height="48"> | TL-MR3020 | [tl-mr3020-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin) | [tl-mr3020-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin)
+<img src="http://i.imgur.com/Na1zhKp.png" height="48"> | TL-WR703 | [tl-wr703n-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-factory.bin) | [tl-wr703n-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-sysupgrade.bin)
+
 
 ## Flash
 
