@@ -25,10 +25,10 @@ Artifacts can be found in `OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/
 If you can't build an image yourself, you can grab a stable image from the Travis CI build artifacts. Latest stable images:
 
     | Device | Factory | Sysupgrade
---- | ------ | ------- | ----------
-<img src="http://i.imgur.com/JxfpPkZ.png" height="48"> | TL-MR3040 | [tl-mr3040-v2-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin) | [tl-mr3040-v2-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
-<img src="http://i.imgur.com/jVqic8Z.png" height="48"> | TL-MR3020 | [tl-mr3020-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin) | [tl-mr3020-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin)
-<img src="http://i.imgur.com/Na1zhKp.png" height="48"> | TL-WR703 | [tl-wr703n-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-factory.bin) | [tl-wr703n-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-sysupgrade.bin)
+:---: | ------ | ------- | ----------
+<img src="http://i.imgur.com/JxfpPkZ.png" height="32"> | TL-MR3040 | [tl-mr3040-v2-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin) | [tl-mr3040-v2-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3040-v2-squashfs-sysupgrade.bin)
+<img src="http://i.imgur.com/qr6P4q5.png" height="32"> | TL-MR3020 | [tl-mr3020-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin) | [tl-mr3020-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin)
+<img src="http://i.imgur.com/CcF5Rlo.png" height="32"> | TL-WR703 | [tl-wr703n-v1-factory.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-factory.bin) | [tl-wr703n-v1-sysupgrade.bin](https://s3.amazonaws.com/occupywifi-firmware/occupywifi/firmware/32/32.1/occupywifi-ar71xx-generic-tl-wr703n-v1-squashfs-sysupgrade.bin)
 
 
 ## Flash
