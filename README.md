@@ -18,7 +18,7 @@ Build supported only on `x86_64` Linux machines. Trigger with:
 $ ./build.sh
 ```
 
-Artifacts can be found in `OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/bin/ar71xx`.
+Artifacts can be found in `OpenWrt-ImageBuilder-15.05-ar71xx-generic.Linux-x86_64/bin/ar71xx`.
 
 ### Precompiled Images
 
