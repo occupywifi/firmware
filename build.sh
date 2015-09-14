@@ -9,9 +9,6 @@ PROFILES=('TLMR3040' 'TLMR3020' 'TLWR703')
 tar -xvjf "${IMAGE_GENERATOR_FILENAME}"
 cd "${IMAGE_GENERATOR}"
 
-# Add missing routing repo which contains nodogsplash
-sed -i '4isrc/gz barrier_breaker_routing http://downloads.openwrt.org/chaos_calmer/15.05/ar71xx/generic/packages/routing' repositories.conf
-
 # Replace filename IMG_PREFIX
 sed -i 's/IMG_PREFIX:=openwrt-$(BOARD)/IMG_PREFIX:=occupywifi-$(BOARD)/' include/image.mk
 
