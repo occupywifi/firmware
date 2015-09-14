@@ -1,7 +1,7 @@
 #!/bin/bash
-IMAGE_GENERATOR="OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64"
+IMAGE_GENERATOR="OpenWrt-ImageBuilder-15.05-ar71xx-generic.Linux-x86_64"
 IMAGE_GENERATOR_FILENAME="${IMAGE_GENERATOR}.tar.bz2"
-IMAGE_GENERATOR_URL="https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/generic/${IMAGE_GENERATOR_FILENAME}"
+IMAGE_GENERATOR_URL="https://downloads.openwrt.org/chaos_calmer/15.05/ar71xx/generic/${IMAGE_GENERATOR_FILENAME}"
 
 PROFILES=('TLMR3040' 'TLMR3020' 'TLWR703')
 
@@ -10,7 +10,7 @@ tar -xvjf "${IMAGE_GENERATOR_FILENAME}"
 cd "${IMAGE_GENERATOR}"
 
 # Add missing routing repo which contains nodogsplash
-sed -i '4isrc/gz barrier_breaker_routing http://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/generic/packages/routing' repositories.conf
+sed -i '4isrc/gz barrier_breaker_routing http://downloads.openwrt.org/chaos_calmer/15.05/ar71xx/generic/packages/routing' repositories.conf
 
 # Replace filename IMG_PREFIX
 sed -i 's/IMG_PREFIX:=openwrt-$(BOARD)/IMG_PREFIX:=occupywifi-$(BOARD)/' include/image.mk
