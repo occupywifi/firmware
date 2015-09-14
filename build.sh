@@ -10,7 +10,7 @@ tar -xvjf "${IMAGE_GENERATOR_FILENAME}"
 cd "${IMAGE_GENERATOR}"
 
 # Replace filename IMG_PREFIX
-sed -i 's/IMG_PREFIX:=openwrt-$(BOARD)/IMG_PREFIX:=occupywifi-$(BOARD)/' include/image.mk
+sed -i 's/IMG_PREFIX:=openwrt-/IMG_PREFIX:=occupywifi-/' include/image.mk
 
 for profile in "${PROFILES[@]}"
 do
